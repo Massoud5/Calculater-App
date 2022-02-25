@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 
-- Live Site URL: [Add live site URL here](https://massoud5.github.io/Calculater-App/index.html)
+- Live Site URL: [https://massoud5.github.io/Calculater-App/index.html]
 
 
 
