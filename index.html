@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style/CSS/main.css">
+  <link rel="stylesheet" href="/style/CSS/themes.css">
+  <link rel="stylesheet" href="/style/CSS/input-radio.css">
+  <title>Calculator app</title>
+</head>
+<body>
+
+  <main>
+    <div class="container">
+      <header>
+        <h1>calc</h1>
+        <div class="theme-box">
+          <p>THEME</p>
+          <div class="theme-input">
+            <div class="label-box">
+              <label for="themes">1</label>
+              <label for="themes">2</label>
+              <label for="themes">3</label>
+            </div>
+            <div class="radio-box">
+              <input type="radio" name="themes" id="radio-theme1" placeholder=none checked>
+              <input type="radio" name="themes" id="radio-theme2" placeholder=none>
+              <input type="radio" name="themes" id="radio-theme3" placeholder=none>
+            </div>
+          </div>
+        </div>
+      </header>
+  
+      <section class="screen">
+        <p id="text-area">0</p>
+      </section>
+  
+      <section class="button-area">
+        <button type="button" class="btn similar-btns" id="seven-btn">7</button>
+        <button type="button" class="btn similar-btns" id="eight-btn">8</button>
+        <button type="button" class="btn similar-btns" id="nine-btn">9</button>
+        <button type="button" class="btn same-style-btn" id="delete-btn">DEL</button>
+        <button type="button" class="btn similar-btns" id="four-btn">4</button>
+        <button type="button" class="btn similar-btns" id="five-btn">5</button>
+        <button type="button" class="btn similar-btns" id="six-btn">6</button>
+        <button type="button" class="btn similar-btns" id="plus-btn">+</button>
+        <button type="button" class="btn similar-btns" id="one-btn">1</button>
+        <button type="button" class="btn similar-btns" id="two-btn">2</button>
+        <button type="button" class="btn similar-btns" id="three-btn">3</button>
+        <button type="button" class="btn similar-btns" id="subtract-btn">-</button>
+        <button type="button" class="btn similar-btns" id="point-btn">.</button>
+        <button type="button" class="btn similar-btns" id="zero-btn">0</button>
+        <button type="button" class="btn similar-btns" id="divide-btn">/</button>
+        <button type="button" class="btn similar-btns" id="multiply-btn">x</button>
+        <button type="button" class="btn same-style-btn same-dimension" id="reset-btn">RESET</button>
+        <button type="button" class="btn same-dimension" id="result-btn">=</button>
+      </section>
+  
+    </main>
+  
+    
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel= "noreferrer noopener">Frontend Mentor</a>. 
+      Coded by <a href="#">Massoud</a>.
+    </div>
+    </div>
+    
+  <script src="/js/main.js"></script>
+  <script src="/js/themes.js"></script>
+  <script src="/js/keys.js"></script>
+</body>
+</html>

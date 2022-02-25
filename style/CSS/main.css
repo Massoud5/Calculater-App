@@ -1,0 +1,121 @@
+*{
+    font-family: Spartan;
+}
+
+body{
+    color: var(--main-color, white);
+    margin: 0;
+    padding: 0;
+    background-color: var(--main-background-1);
+}
+
+@media (max-width: 430px) {
+    .container {
+        transform: scale(0.8);
+    }
+}
+
+main{
+
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 400px;
+    overflow: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 25px;
+}
+
+.theme-box{
+    display: flex;
+}
+
+.theme-box p{
+    margin-right: 20px;
+    font-size: 10px;
+    position: relative;
+    top: 8px;
+}
+
+.screen{
+    background: var(--screen-background-1);
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 32px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+#text-area{
+    margin-right: 20px;
+}
+
+.button-area{
+    background: var(--toggle-keypad-background-1);
+    padding: 20px;
+    border-radius: 8px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-template-columns: repeat(4, 80px);
+    grid-template-columns: repeat(4, 80px);
+    justify-content: center;
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+}
+
+.btn{
+    padding: 10px 0 5px 0;
+    border-radius: 8px;
+    border: none;
+}
+.btn:hover{
+    cursor:pointer;
+    opacity: 0.8;
+}
+.btn:active{
+    transform: scale(0.9);
+    cursor:progress;
+}
+
+.similar-btns{
+    color: var(--Very-dark-grayish-blue-1);
+    font-size: 24px;
+    background: var(--key-background-1-2);
+    box-shadow: 0 3px 0 var(--key-shadow-1-3);
+}
+
+.same-style-btn{
+    background: var(--key-background-1);
+    box-shadow: 0 3px 0 var(--key-shadow-1);
+    color: white;
+}
+
+#reset-btn{
+    -ms-grid-area: 5/1/5/3;
+    grid-area: 5/1/5/3;
+    padding: 15px 0 10px 0;
+}
+#result-btn{
+    -ms-grid-area: 5/3/5/5;
+    grid-area: 5/3/5/5;
+    padding: 15px 0 10px 0;
+    background: var(--key-background-toggle-1);
+    box-shadow: 0 3px 0 var(--key-shadow-1-2);
+    color: white;
+}
+
+.attribution { font-size: 11px; text-align: center; position: absolute; left: 50%;bottom: 100px;transform: translateX(-50%);}
+.attribution a { color: darkcyan; }

@@ -1,0 +1,67 @@
+:root{
+    
+    /* # Theme 1 # */
+
+    
+    /* # Backgrounds */
+    --main-background-1: #3a4764;
+    --toggle-keypad-background-1: #232c43;
+    --screen-background-1: #182034;
+
+    /* # Keys */
+    --key-background-1: #637097;
+    --key-shadow-1: #404e72;
+
+    --key-background-toggle-1: #d03f2f;
+    --key-shadow-1-2: #93261a;
+
+    --key-background-1-2: #eae3dc;
+    --key-shadow-1-3: #b4a597;
+
+    /* # Text */
+    --Very-dark-grayish-blue-1: #444b5a;
+
+
+    /* ## Theme 2 ## */
+
+
+    /* ## Backgrounds */
+    --main-background-2: #e6e6e6;
+    --toggle-keypad-background-2: #d1cccc;
+    --screen-background-2: #ededed;
+
+    /* ## Keys */
+    --key-background-2: #377f86;
+    --key-shadow-2: #1b5f65;
+
+    --key-background-toggle-2: #ca5502;
+    --key-shadow-2-2: #893901;
+
+    --key-background-2-2: #e5e4e1;
+    --key-shadow-2-3: #a69d91;
+
+    /* ## Text */
+    --Very-dark-grayish-2: #35352c;
+
+
+    /* ### Theme 3 ### */
+
+
+    /* ### Backgrounds */
+    --main-background-3: #160628;
+    --toggle-keypad-screen-background-3: #1d0934;
+
+    /* ### Keys */
+    --key-background-3: #58077d;
+    --key-shadow-3: #bc15f4;
+
+    --key-background-toggle-3: #00e0d1;
+    --key-shadow-3-2: #6cf9f2;
+
+    --key-background-3-2: #341c4f;
+    --key-shadow-3-3: #871c9c;
+
+    /* ### Text */
+    --Light-yellow-3: #ffe53d;
+    --Very-dark-blue-3: #1b2428;
+}
