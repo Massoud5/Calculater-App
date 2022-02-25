@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://massoud5.github.io/Calculater-App/index.html)
 
 
 
@@ -41,9 +41,6 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://styled-components.com/) - For styles
 
 
@@ -57,11 +54,11 @@ Users should be able to:
 ### Useful resources
 
 - [stackoverflow](https://stackoverflow.com/)
-- [Example resource 2](https://www.example.com) 
+
 
 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/
+- Website - [Massoud5](https://github.com/Massoud5)
+- Frontend Mentor - [@Massoud5](https://www.frontendmentor.io/
