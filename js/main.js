@@ -43,7 +43,7 @@ function resultClicked(){
     }
     
     typedNumberArray = [];
-    typedNumberString = 0;
+    typedNumberString = "";
     additionReservedNumber = 0;
     substractionReservedNumber = 0;
     divisionReservedNumber = 0;
@@ -59,8 +59,11 @@ function deleteClicked(){
 
 function resetClicked(){
     typedNumberArray = [];
-    typedNumberString = 0;
-    reservedNumber = 0;
-    reservedNumber2 = 0;
-    textArea.innerHTML = typedNumberString;
+    typedNumberString = "";
+    additionReservedNumber = 0;
+    substractionReservedNumber = 0;
+    divisionReservedNumber = 0;
+    multiplicationReservedNumber = 0;
+    resultReservedNumber = 0;
+    textArea.innerHTML = "0";
 };
