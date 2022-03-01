@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 
-- Live Site URL: [https://massoud5.github.io/Calculater-App/index.html]
+- Live Site URL: [https://ms-calculator-app.netlify.app]
 
 
 
