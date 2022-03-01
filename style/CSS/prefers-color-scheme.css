@@ -1,0 +1,64 @@
+@media (prefers-color-scheme: light) {
+    body{
+        color: var(--Very-dark-grayish-2);
+        background-color: var(--main-background-2);
+    }
+    .screen{
+        background: var(--screen-background-2);
+    }
+    .button-area{
+        background: var(--toggle-keypad-background-2);
+
+    }
+    .similar-btns{
+        background: var(--key-background-2-2);
+        box-shadow: 0 3px 0 var(--key-shadow-2-3);
+        color: var(--Very-dark-grayish-2);
+    }
+    .same-style-btn{
+        background: var(--key-background-2);
+        box-shadow: 0 3px 0 var(--key-shadow-2);
+        color: white;
+    }
+    #result-btn{
+        background: var(--key-background-toggle-2);
+        box-shadow: 0 3px 0 var(--key-shadow-2-2);
+        color: white;
+    }
+    .radio-box{
+        background: var(--toggle-keypad-background-2);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body{
+        color: white;
+        background-color: var(--main-background-1);
+    }
+    .screen{
+        background: var(--screen-background-1);
+
+    }
+    .button-area{
+        background: var(--toggle-keypad-background-1);
+
+    }
+    .similar-btns{
+        color: var(--Very-dark-grayish-blue-1);
+        background: var(--key-background-1-2);
+        box-shadow: 0 3px 0 var(--key-shadow-1-3);
+    }
+    .same-style-btn{
+        background: var(--key-background-1);
+        box-shadow: 0 3px 0 var(--key-shadow-1);
+        color: white;
+    }
+    #result-btn{
+        background: var(--key-background-toggle-1);
+        box-shadow: 0 3px 0 var(--key-shadow-1-2);
+        color: white;
+    }
+    .radio-box{
+        background: var(--toggle-keypad-background-1);
+    }
+}

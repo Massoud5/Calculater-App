@@ -16,6 +16,7 @@ secondeTheme.addEventListener("input", secondeThemeRender);
 thirdTheme.addEventListener("input", thirdThemeRender);
 
 
+
 function firstThemeRender(){
     body.style.backgroundColor = "var(--main-background-1)";
     body.style.color = "white";
